@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Артём Кудренко](https://up.htmlacademy.ru/htmlcss/34/user/1844021).
-* Наставник: `Ярослав Баронин`.(https://htmlacademy.ru/profile/id155830)
+* Наставник:[Ярослав Баронин](https://htmlacademy.ru/profile/id155830).
 
 ---
 
