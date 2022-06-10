@@ -31,7 +31,16 @@
     src: url("../fonts/ptsans-700.woff2") format("woff2");
     font-display: swap;
 }
-
+.html{
+    height: 100%;
+}
+.main-index{
+    color: #ffffff;
+    background-color: #000000;
+    background-image: url(../images/background-header.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
 body {
     font-family: "PT Sans", sans-serif;
     font-size: 18px;
@@ -43,6 +52,32 @@ body {
 .page-header {
     background: #FFFFFF;
     color: black;
+
+
+}
+.navigation{
+    display: flex;
+    width: 1060px;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.main-header-logo{
+    width:139px;
+    margin-right: 30px;
+}
+
+.navigation-list{
+    width: 345px;
+
+
+}
+.navigation-user{
+    width: 264px;
+    margin-left: 285px;
+
 }
 
 .navigation-link {
@@ -198,7 +233,7 @@ body {
     color: #FFFFFF;
     background-image: url(../images/header-catalog.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
 }
 
 .inner-header-title {
