@@ -187,9 +187,6 @@ body {
   text-transform: uppercase;
 }
 
-
-
-
 .advices-text {
   color: #333333;
   font-weight: 400;
@@ -244,7 +241,7 @@ body {
 }
 
 
-.subscribe {
+.newsletter {
   color: #FFFFFF;
   background-color: #000;
   text-align: center;
@@ -256,6 +253,7 @@ body {
   padding: 94px 200px;
 
 }
+
 .subscribe-inner {
   color: #000000;
   background-color: #ffffff;
@@ -333,30 +331,32 @@ body {
   text-decoration: none;
 }
 
-.filter-container{
+.filter-container {
   background-image: url(../images/header-catalog.jpg);
   background-color: #ffffff;
   background-size: 100% auto;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
-  color:#ffffff;
+  color: #ffffff;
 
 }
-.ilter-content-container{
+
+.ilter-content-container {
   display: flex;
 }
+
 .filter-content-container {
   display: flex;
   margin-left: 71px;
 }
 
-.sort-container{
-  display:flex;
+.sort-container {
+  display: flex;
   margin-bottom: 55px;
 }
 
-.breadcrumbs{
+.breadcrumbs {
   display: flex;
   list-style: none;
   margin-left: 73px;
@@ -386,14 +386,15 @@ body {
   font-size: 18px;
   line-height: 23px;
 }
-.catalog-filter{
+
+.catalog-filter {
   display: flex;
   flex-direction: column;
 }
 
-.catalog{
+.catalog {
   background: #ffffff;
-  color:#000000;
+  color: #000000;
   margin: 0 auto;
   width: 1060px;
 }
@@ -476,19 +477,22 @@ a {
   background-color: #F2F2F2;
 }
 
-.pagination-container{
+.pagination-container {
   display: flex;
   width: 1056px;
 }
-.select-hoslets-in-page{
+
+.select-hoslets-in-page {
   margin-left: auto;
 }
+
 .pagination {
   display: flex;
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
+
 .pagination-link {
   font-weight: 700;
   font-size: 20px;
@@ -505,6 +509,9 @@ a {
   line-height: 23px;
   color: #333333;
   background-color: #FFFFFF;
+}
+.newsletter{
+
 }
 
 
