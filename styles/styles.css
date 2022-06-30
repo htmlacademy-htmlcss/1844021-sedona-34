@@ -287,6 +287,10 @@ body {
   line-height: 21px;
   margin: 0 85px 30px;
 }
+.advisces-nubmer-road{
+  margin: 0;
+  margin-bottom: 30px;
+}
 
 .advices-item-eat {
   background-color: #FFFFFF;
@@ -331,7 +335,7 @@ body {
   margin-right: 240px;
 }
 
-.search-hotel {
+.btn-search-hotel{
   color: #FFFFFF;
   background-color: #756257;
   font-weight: 700;
@@ -341,7 +345,6 @@ body {
   text-decoration: none;
   display: block;
   width: 574px;
-  height: 60px;
   margin: 0 auto;
   margin-bottom: 93px;
   margin-top: 56px;
@@ -391,48 +394,54 @@ body {
   margin-top: 30px;
 
 }
-
 .page-footer-container {
   display: flex;
   margin: 0 auto;
   width: 1060px;
-  height: 120px;
+  margin: 40px 70px 30px 70px;
   justify-content: space-between;
   align-items: center;
 }
-
 .social {
   max-width: 155px;
 }
-
-.footer-social-list {
+.social-list {
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
   margin: 0 auto;
   padding: 0;
-  margin-top: 30px;
 }
-
+.social-item {
+  margin-right: 5px;
+  margin-bottom: 8px;
+}
+.social-item:nth-child(3n) {
+  margin-right: 0;
+}
 .social-link {
   display: block;
   min-width: 47px;
   min-height: 40px;
 }
-
-.footer-contacts-address-phone {
-  color: #000;
-  font-weight: 400;
-  font-size: 40px;
-  line-height: 40px;
-  text-decoration: none;
-}
-
-.page-footer .htmlacademy-link {
-  color: #000;
-}
-
-.about-text {
+.logo-footer-academy {
   width: 115px;
+  }
+.page-footer {
+  background: #ffffff;
+  width: 1200px;
+}
+.contact {
+  font-style: normal;
+  text-align: center;
+  width: 720px;
+}
+.contact-phone {
+  color: #000000;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 40px;
+  text-decoration-line:none;
 }
 
 .navigation-item-link {
